@@ -94,9 +94,9 @@ public class ACCOUNT {
         }
         @Override
         public String toString() {
-            return String.format("Bank Name: %s || Agency Code: %s \n" +
-                    "Client: %s\n" +
-                    " Account Number: %d || Account Type: %s || Balance: %f || Limit: %f\n", BankName, AGENCY_CODE, client.toString(), accnumber, type.toString(), accbalance, peak);
+            return String.format("Bank Name: " +BankName +"  Agency Code: "+AGENCY_CODE+" \n" +
+                    "Client: "+client.toString()+"\n" +
+                    " Account Number: " + accnumber+" Account Type: "+type.toString() +" Balance: "+ accbalance+" Limit: " +peak+"\n");
         }
 
 
