@@ -54,12 +54,7 @@ public class ACCOUNT {
     public void setPeak(double peak){
         this.peak = peak;
     }
-    public void afficheinfo(){
-        System.out.println("Bank Name: "+BankName+"\nAgency Code: "+AGENCY_CODE
-                +"\nAccount Number: "+accnumber+"\nPeak: "+peak+"\nType: "+type.toString()
-        +"\nAccount Balance: "+accbalance);
-    }
-
+    
 
     static class Create{
         LIST lescomptes = LIST.getinstance();
